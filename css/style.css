@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#f5f6f6;
+	background-image: url(../img/fundo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:60px;
+	background-color:#241e1e;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 1%;
+	
+}
+nav ul{
+	display: flex;
+}
+
+nav ul li a{
+	margin:100px;
+	font-family:myriad pro regular;
+	color:#fff1f1;
+	font-size: 15px;
+
+}
+.logo{
+	font-family:RoadTest;
+	color:#b9f0eb;
+	font-size: 22px;
+	margin:0%;
+
+}
+.Banner{
+	height:530px;
+	position:absolute;
+	bottom:0.2%;
+	left:95%;
+	transform: translateX(-75%);	
+}
+.text-container p:nth-child(1){
+	font-family: calibri;
+	font-weight:bold;
+	color:#e8eefa;
+	font-size:22px;
+}
+
+.text-container p{
+	width: 952 px;
+	height: 15px;
+	margin:25px 0px 15px;
+	text-align: center;
+	line-height:5px;
+	position: relative;
+}
+
+.text-container button{
+	width:130px;
+	height:42px;
+	border-radius:10px;
+	font-family:calibri;
+	font-weight:bold;
+	font-size: 14px;
+	outline:none;
+	margin: 95px;
+	
+}
+.text-container{
+	background-color: rgba(255, 255, 255, 0.100);
+	backdrop-filter: blur (15px);
+	-webkit-backdrop-filter: blur(15px);
+	border-radius:18px;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	left:8%;
+	top:55%;
+	transform:translate(-13%,-42%);
+	
+}
